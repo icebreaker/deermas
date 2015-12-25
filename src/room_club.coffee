@@ -3,7 +3,7 @@ class RoomClub extends Room
     super
 
     @setTag('club')
-    @setText('Welcome to the "Deer Club" ...\n\tMerry Chrismas ...\nand a Happy New Year\n\tMaral ...\nOwner and proud member of the "Deer Club" ...')
+    @setText('Welcome to the "Deer Club" ...\n\tMerry Christmas ...\nand a Happy New Year\n\tMaral ...\nOwner and proud member of the "Deer Club" ...')
 
     random = new Fz2D.Random()
 
