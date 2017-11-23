@@ -205,11 +205,7 @@ Game = (function(superClass) {
     }
   };
 
-  Game.prototype.plugins = [Fz2D.Plugins.GoogleAnalytics, Fz2D.Plugins.GitHub, Fz2D.Plugins.Stats];
-
-  Game.prototype.ga = {
-    id: 'UA-3042007-2'
-  };
+  Game.prototype.plugins = [Fz2D.Plugins.GitHub, Fz2D.Plugins.Stats];
 
   Game.prototype.github = {
     username: 'icebreaker',
