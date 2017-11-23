@@ -10,13 +10,9 @@ class Game extends Fz2D.Game
       winter: 'winter.ogg'
   
   plugins: [
-    Fz2D.Plugins.GoogleAnalytics,
     Fz2D.Plugins.GitHub,
     Fz2D.Plugins.Stats
   ]
-
-  ga:
-    id: 'UA-3042007-2'
 
   github:
     username: 'icebreaker'
